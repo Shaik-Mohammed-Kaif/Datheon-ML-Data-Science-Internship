@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        try {
+          var desc = Object.getOwnPropertyDescriptor(window, 'fetch');
+          if (desc && desc.get && !desc.set && desc.configurable) {
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: desc.enumerable,
+              get: desc.get,
+              set: function () {}
+            });
+          }
+        } catch (e) {}
+        window.addEventListener(
+          'error',
+          function (ev) {
+            if (ev && ev.filename && ev.filename.indexOf('chrome-extension://') === 0) {
+              ev.preventDefault();
+            }
+          },
+          true
+        );
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iris Classification — From Exploratory Data Analysis to Machine Learning</title>
+    <meta
+      name="description"
+      content="Interactive 20-slide data science presentation analyzing the canonical 150-observation Iris benchmark dataset with Plotly visualizations, statistical tests, and supervised classification models."
+    />
+    <meta
+      property="og:title"
+      content="Iris Classification — From Exploratory Data Analysis to Machine Learning"
+    />
+    <meta
+      property="og:description"
+      content="Interactive 20-slide data science presentation analyzing the canonical 150-observation Iris benchmark dataset with Plotly visualizations, statistical tests, and supervised classification models."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#FAF8FC] text-[#1E152A] antialiased selection:bg-[#6D28D9]/20 selection:text-[#3B0764]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

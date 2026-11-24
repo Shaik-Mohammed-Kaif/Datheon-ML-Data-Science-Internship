@@ -1,0 +1,22 @@
+{
+    "selected_model": "Support Vector Machine",
+    "selection_basis": "Highest stratified 5-fold training CV Macro F1 among tuned candidates",
+    "test_accuracy": 0.9333333333333333,
+    "test_precision_macro": 0.9333333333333332,
+    "test_recall_macro": 0.9333333333333332,
+    "test_f1_macro": 0.9333333333333332,
+    "test_f1_weighted": 0.9333333333333333,
+    "feature_columns": [
+        "sepal_length_cm",
+        "sepal_width_cm",
+        "petal_length_cm",
+        "petal_width_cm"
+    ],
+    "classes": [
+        "Iris-setosa",
+        "Iris-versicolor",
+        "Iris-virginica"
+    ],
+    "random_state": 42,
+    "test_size": 0.2
+}

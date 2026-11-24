@@ -1,0 +1,7 @@
+metric,value
+rows,150
+columns,5
+numeric_features,4
+species_categories,3
+missing_cells,0
+duplicate_rows,3

@@ -1,0 +1,8 @@
+Model,Multiclass ROC-AUC OVR Macro
+Logistic Regression,1.0
+Decision Tree,0.9716666666666667
+K-Nearest Neighbors,0.9933333333333333
+Support Vector Machine,0.9899999999999999
+Random Forest,0.9866666666666667
+Gaussian Naive Bayes,0.9899999999999999
+Gradient Boosting,0.9833333333333334

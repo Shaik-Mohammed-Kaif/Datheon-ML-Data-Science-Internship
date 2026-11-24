@@ -1,0 +1,20 @@
+IRIS DATASET — EDA INSIGHTS
+==================================================
+Records: 150
+Columns: 5
+Missing cells: 0
+Duplicate rows: 3
+
+SPECIES COUNTS
+Iris-setosa: 50 (33.3%)
+Iris-versicolor: 50 (33.3%)
+Iris-virginica: 50 (33.3%)
+
+HIGHEST MEAN FEATURE BY SPECIES
+sepal_length: Iris-virginica (6.588 cm)
+sepal_width: Iris-setosa (3.418 cm)
+petal_length: Iris-virginica (5.552 cm)
+petal_width: Iris-virginica (2.026 cm)
+
+STRONGEST ABSOLUTE CORRELATION
+petal_length vs petal_width: 0.963

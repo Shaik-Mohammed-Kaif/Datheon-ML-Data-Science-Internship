@@ -1,0 +1,4 @@
+species,flower_records,average_sepal_length,median_sepal_length,average_sepal_width,average_petal_length,average_petal_width,min_petal_length,max_petal_length
+Iris-setosa,50,5.006,5.0,3.418,1.464,0.24400000000000002,1.0,1.9
+Iris-versicolor,50,5.936,5.9,2.77,4.26,1.3259999999999998,3.0,5.1
+Iris-virginica,50,6.587999999999999,6.5,2.9739999999999998,5.5520000000000005,2.026,4.5,6.9

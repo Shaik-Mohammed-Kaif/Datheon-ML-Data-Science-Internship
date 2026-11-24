@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+**/.ipynb_checkpoints/
+*.log
+.DS_Store
+Thumbs.db
+
+# AI Studio temporary artifacts
+**/.aistudio/artifacts/

@@ -1,0 +1,8 @@
+{
+  "name": "Iris Classification — Botanical Analytics & ML Presentation",
+  "description": "Interactive 20-slide data science presentation and statistical workbench exploring Fisher's 150-observation Iris dataset from EDA through supervised classification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
