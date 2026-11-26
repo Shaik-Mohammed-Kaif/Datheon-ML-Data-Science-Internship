@@ -24,8 +24,9 @@ jobs:
 
       - name: Prepare HTML
         run: |
-          mkdir public
+          mkdir -p public
           cp Task-01-Iris-Classification/Dashbord/app.html public/index.html
+          cp Task-01-Iris-Classification/Dashbord/main.html public/main.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
